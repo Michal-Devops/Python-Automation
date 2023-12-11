@@ -1,7 +1,7 @@
 import requests
 
 def get_weather_info(city):
-    API_KEY = "65dc5447f22edc0d72b6dc72166f73ac"
+    API_KEY = "APPI_KEY"
     BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
     requests_url = f"{BASE_URL}?appid={API_KEY}&q={city}"
     response = requests.get(requests_url)
